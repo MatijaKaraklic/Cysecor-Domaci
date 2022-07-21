@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Domaci #1</title>
+</head>
+<body>
+    <div class="to-do-element" onclick="check()" id="temp_el" style="display: none;">
+        <span class="checked"></span>
+        <span class="text"></span>
+        <span class="delete" onclick="my_remove()">x</span>
+    </div>
+
+    <div class="to-do">
+        <h2>My To Do List</h2>
+        <input type="text" id="input" class="input" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+
+    <!--✓-->
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

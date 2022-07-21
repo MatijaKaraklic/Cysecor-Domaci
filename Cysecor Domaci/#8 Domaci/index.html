@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OOP Validacija Forme</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<form>
+		<h1>Registracija korisnika</h1>
+		<div>
+			<label for="ime_prezime">Ime i prezime: *</label>
+			<input id="ime_prezime" type="text" name="ime_prezime" placeholder="Niko Nikolic">
+		</div>
+		<div>
+			<label for="korisnicko_ime">Korisničko ime: *</label>
+			<input id="korisnicko_ime" type="text" name="korisnicko_ime" placeholder="niko.nikolic1">
+		</div>
+		<div>
+			<label for="email">Email adresa: *</label>
+			<input id="email" type="text" name="email" placeholder="niko.nikolic@mail.com">
+		</div>
+		<div>
+			<label for="broj_telefona">Broj Telefona:</label>
+			<input id="broj_telefona" type="text" name="broj_telefona" placeholder="+381 00 123 456">
+		</div>
+		<div>
+			<label for="postal code">Postanski broj:</label>
+			<input id="postal_code" type="text" name="postal_code" placeholder="03800">
+		</div>
+		<div>
+			<label for="lozinka">Lozinka: *</label>
+			<input id="lozinka" type="text" name="lozinka" placeholder="*******">
+		</div>
+		<div>
+			<label for="ponovi_lozinku">Ponovi lozinku: *</label>
+			<input id="ponovi_lozinku" type="text" name="ponovi_lozinku" placeholder="*******">
+		</div>
+		<div>
+			<button>Registruj se</button>
+		</div>
+	</form>
+	
+	<script type="text/javascript" src="validator.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

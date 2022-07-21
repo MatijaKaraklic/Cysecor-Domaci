@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hexa</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="inner-container left-side">
+                    <img src="./img/profile.jpg" alt="" class="profile">
+
+                    <p><b id="username">Username...</b></p>
+                    <p id="email">Email...</p>
+
+                    <button id="editAccount">Izmeni nalog</button>
+                    <button id="logout">Odjavi se</button>
+                    
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="inner-container right-side">
+                    <form id="postForm">
+                        <textarea id="postContent" placeholder="Napisi nesto i objavi"></textarea>
+                        <button>Objavi</button>
+                    </form>
+
+                    <div id="allPostsWrapper">
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="custom-modal">
+        <button id="closeModal">X</button>
+        <form id="editForm">
+            <h2>Izmeni svoj profil</h2>
+
+            <div>
+                <label for="korisnicko_ime">Korisnicko ime:</label>
+                <input type="text" name="korisnicko_ime" id="korisnicko_ime" placeholder="niko.nikolic1">
+            </div>
+            
+            <div>
+                <label for="edit_email">Email adresa:</label>
+                <input type="text" name="register_email" id="edit_email" placeholder="niko.nikolic@gmail.com">
+            </div>
+
+            <div>
+                <button>Izmeni</button>
+            </div>
+        </form>
+        <hr>
+        <button id="deleteProfile">OBRISI PROFIL</button>
+    </div>
+
+
+    <script src="./js/Validator.js"></script>
+    <script src="./js/Session.js"></script>
+    <script src="./js/User.js"></script>
+    <script src="./js/Comment.js"></script>
+    <script src="./js/Post.js"></script>
+    <script src="./js/hexa.js"></script>
+
+</body>
+</html>

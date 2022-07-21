@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Domaci #2</title>
+</head>
+<body>
+
+    <div class="pois">
+        <h1>SERIES</h1>
+    </div>
+    <div class="holder">
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="card">
+                    <h3 class="presentation-title">Breaking Bad</h3>
+                    <div class="presentation">
+                        <p>A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future.</p>
+                    </div>
+                    <div>
+                        <span class="rating">4</span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="price">$20</span>
+                        <button class="hoverBtn" onclick="watch(this)">WATCH</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="card">
+                    <h3 class="presentation-title">Mr. Robot</h3>
+                    <div class="presentation">
+                        <p>Elliot, a brilliant but highly unstable young cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance when he and his shadowy allies try to take down the corrupt corporation he works for.</p>
+                    </div>
+                    <div>
+                        <span class="rating">5</span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="price">$8</span>
+                        <button class="hoverBtn" onclick="watch(this)">WATCH</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="card">
+                    <h3 class="presentation-title">Money Heist</h3>
+                    <div class="presentation">
+                        <p>An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.</p>
+                    </div>
+                    <div>
+                        <span class="rating">3</span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="price">$10</span>
+                        <button class="hoverBtn" onclick="watch(this)">WATCH</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="card">
+                    <h3 class="presentation-title">Better Call Saul</h3>
+                    <div class="presentation">
+                        <p>The trials and tribulations of criminal lawyer Jimmy McGill in the time before he established his strip-mall law office in Albuquerque, New Mexico as Saul Goodman.</p>
+                    </div>
+                    <div>
+                        <span class="rating">1</span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="price">$50</span>
+                        <button class="hoverBtn" onclick="watch(this)">WATCH</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="card">
+                    <h3 class="presentation-title">Stranger Things</h3>
+                    <div class="presentation">
+                        <p>When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.</p>
+                    </div>
+                    <div>
+                        <span class="rating">3</span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="price">$9</span>
+                        <button class="hoverBtn" onclick="watch(this)">WATCH</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="card">
+                    <h3 class="presentation-title">MAN vs BEE</h3>
+                    <div class="presentation">
+                        <p>A man finds himself at war with a bee while housesitting a luxurious mansion. Who will win, and what irreparable damage will be done in the process?</p>
+                    </div>
+                    <div>
+                        <span class="rating">5</span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="price">$25</span>
+                        <button class="hoverBtn" onclick="watch(this)">WATCH</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="all-price">$<span id="priceAll">0.00</span></h1>
+        <p class="discount">You have a <span id="dis">20</span>% discount for four films.</p>
+    </div>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

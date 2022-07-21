@@ -1,0 +1,24 @@
+{
+    "name": "Cysecor Google",
+    "description": "Google postaje Cysecor Google",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.google.com/*"],
+            "css": ["main.css"],
+            "js": ["main.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": ["https://*.google.com/*"],
+            "resources": ["images/cysecor_logo.png"]
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+html{
+    background-color: #1e2328;
+    color: rgb(34, 34, 34);
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+button{
+    display: block;
+    border: #f5b301 solid 4px;
+    margin: 25px auto 0 auto;
+    border-radius: 5px;
+    height: 45px;
+    font-weight: bold;
+    font-size: larger;
+    color: #fff;
+    background-color: #f5b301;
+    width: 70%;
+    transition: 0.4s;
+}
+.hoverBtn:hover{
+    background-color: #dbdbdb;
+    color: #1e2328;
+}
+.checkedBtn{
+    background-color: #989999;
+    border: #989999 solid 4px;
+}
+.checkedCard{
+    background-color: #858585 !important;
+}
+.pois{
+    max-width: 1060px;
+    background-color: #f5b301;
+    margin: auto;
+    color: #fff;
+    padding: 30px;
+}
+.pois h1{
+    text-align: center;
+}
+
+.holder{
+    max-width: 1060px;
+    margin: 20px auto;
+}
+
+.card{
+    background-color: #dbdbdb;
+    padding: 20px;
+    border-radius: 5px;
+}
+.card p{
+    font-size: medium;
+    text-align: justify;
+}
+.presentation{
+    height: 140px;
+}
+.presentation-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.checked{
+    color: #f5b301;
+}
+.rating{
+    font-weight: bold;
+}
+.price{
+    font-weight: bold;
+    float: right;
+}
+.all-price{
+    margin-top: 10px;
+    color: #dbdbdb;
+}
+.discount{
+    color: #dbdbdb;
+    font-size: 15px;
+}
